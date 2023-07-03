@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: #111111;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.page{
+    width: 70vw;
+    height: 90vh;
+    /* background: red; */
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.page h1{
+    text-transform: uppercase;
+    font-family: 'Monoton', cursive;
+    /* font-family: 'Bungee', cursive; */
+    /* font-family: 'Bungee Shade', cursive; */
+    /* font-family: 'Press Start 2P', cursive; */
+    word-spacing: 7px;
+    font-size: 2.7rem;
+    color: #f03d3d;
+}
+.page p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    color: #dddddd;
+}
+.page p strong{
+    color: #ffffff;
+    font-weight: 600;
+}
+.page .tab{
+    margin-left: 1rem;
+}
+.page .link{
+    text-decoration: none;
+    color: #f03d3d;
+    font-weight: 600;
+}
+.page .link:hover{
+    background-color: #f03d3d;
+    color: #000000;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+
+.page h3{
+    text-transform: uppercase;
+    font-family: 'Bungee', cursive;
+    color: #ffffff;
+}
+
+.page ul{
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+}
+.page ul li a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #f03d3d;
+    display: list-item;
+    width: fit-content;   
+}
+.page ul li a span:hover{
+    background-color: #f03d3d;
+    color: #000000;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.page .footer{
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.page .footer a{
+    color: #20c20e;
+    text-decoration: none;
+}
+.page .footer a:hover{
+    background-color: #20c20e;
+    color: #000000;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+
+
+/*responsive website*/
+@media screen and (max-width: 420px){
+    body{
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 370px){
+    body{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width: 320px){
+    body{
+        font-size: 1rem;
+    }
+}
